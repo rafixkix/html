@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML | Digital House</title>
+    </head>
+
+  <body>
+    <header>
+      <section class="grid-titulo">
+      <h1 id="titulo">HTML <br>em uma Semana</br></h1>
+        <!--<h3 class="titulo">Livro | <a href="https://en.wikipedia.org/wiki/Laura_Lemay" target="_blank">Laura Lemay</a></h3>-->
+        <nav id="menu">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="specs.html">Aba 2</a></li>
+            <li><a href="fotos.html">Aba 3</a></li>
+            <li><a href="multimidia.html">Aba 4</a></li>
+            <li><a href="fale-conosco.html">Aba 5</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+<section id="corpo">
+<h1>INTRODUÇÃO</h1>
+<p>Uma jornada de mil quilômetros começa com um paso, e você está aqui, no DIA 1, Capítulo 1, de uma jornada que lhe mostrará como utilizar a HyperText Markup Language (HTML) para produzir documentos na World Wide Web. Neste Capítulo, você aprenderá os seguintes tópicos básicos:</p>
+<ul>
+<a href="#link1"><li>O que é uma World Wide Web (WWW ou Web), e por que ela é tão boa</li></a>
+  <a href="#link2"><li>Como utilizar um navegador (browser) para explorar a Web</li></a>
+  <a href="#link3"><li>O que é um servidor Web, e por que vpcê precisa de um</li></a>
+  <a href="#link4"><li>O que é um Uniform Resource Locator (URL)</li></a>
+  <a href="#link5"><li>Para que são utilizadas as home pages</li></a>
+</ul>
+
+/*NOTA*/
+<p>Caso você não tenha utilizado a Web antes, aqui vai um verdadeiro impulso de partida: em vários lugares neste capítulo, e no decorrer do conteúdo inteiro, eu digo a você para apontar seu navegador (aplicativo que você utiliza para explorar a Web, por exemplo, Google Chrome ou Firefox) para uma página Web emm particular, e lhe dou um endereço mais ou menos assim:
+<br>
+<p><a href="https://www.nasa.gov/">https://www.nasa.gov/</a></p>
+
+</br>
+<p>Essa "coisa" é chamada de URL. Vou explicar especificamente o que vem a ser isso mais adiante, ainda neste capítulo. Pense nas URLs como endereço de lugares interessantes da Web. Você utiliza um URL inicializando seu navegador, nele você poderá digitar uma URL, e seu navegador estabelecerá um vínculo com as infromações contidas nesse endereço.</p>
+</section>
+<aside id="lateral">
+<h2 href="#link1">O Que é a World Wide Web?</h2>
+<p>Se eu fosse ele, descreveria a World Wide Web como um sistema de infromação em hipertexto gráfico, distribuído, independente de plataforma, dinâmico, interativo, global, executado na Internet. Ufa! A menos que você compreenda cada uma dessas palavras e como elas se encaixam, isso não vai fazer muito sentido. (Meu amigo também não costuma fazer muito sentido na maioria das vezes.)</p>
+<p>Eu tenho um amigo que gosta de descrever coisas com uma série de palavras expressivas ligadas umas às outras, o que faz com que a gente leve vários minutos para entender o que ele quis dizer.</p>
+<p>Então vamos pegar cada uma dessas palavras e ver o que elas significam no contexto de com você utilizará a Web como meio de editoração.</p>
+
+<h3 href="#link2">A Web é um Sistema de Informação em Hipertexto</h3>
+<p>Se você já utilizou qualquer tipo de sistema de help on-line básico, já conhece o conceito primário de World Wide Web: hipertexto.</p>
+- A ideia por trás do hipertexto é que, ao invés de ler um texto em um estrutura rígida, linear (como em um livro), você pode saltar facilmente de um ponto ao outro, obter maiores informações, voltar, saltar para outros tópicos e se movimentar através do texto baseado em seus interesses no momento.
+- Sistemas de help on-line ou plihas de help como os fornecidos pela Microsoft Windows Help ou Mac OS X Help, utilizam hipertexto para apresentar informações. Para obter maiores informações sobre o tópico, basta dar um clique sobre ele. Uma nova tela (ou outra janela, ou uma caixa de diálogo, dependendo da forma como o programa definiri um salto) aparecerá com essas novas informações. Talvez haja vínculos nessa tela que levem você a outras telas, e vínculos nessas telas qeu levem você ainda mais longe de seu tópico original. A Figura 1.1 mostra um diagrama simples de como funciona esse tipo de sistema.<br><br>
+</br>
+  [INSERIR FIGURA 1.1 - LEGENDA: Um sistema de help online simples.]<br>
+  [seria mais interesse um gif]</br>
+</br>
+  <p>Agora imagine que seu sistema de help on-line esteja vinculado a outro em algum aplicativo relacionado ao seu; por exemplo, o help de seu programa de desenho está vinculado ao help de seu processador de textos.</p>
+<p>o help de seu processador de textos será então vinculado a uma enciclopédia, onde você poderá procurar quaisquer outros conceitos que não entenda. A enciclopédiaestá ligada a um índice global de artigos de revistas que permite que você obtenha as informações mais recentes sobre os tópicos que a enciclopédia abrange; o índice do artigo será então vinculado a informações sobre os autores desses artigos e algumas imagens de seus filhos.(Ver Figura 1.2.)</p>
+<br>
+
+[INSERIR FIGURA 1.1 - LEGENDA: Um sistema de help mais complexo.]<br>
+[seria mais interesse um gif]</br>
+</br>
+<p>Com todos esses sistemas disponíveis interligados com o sistema de help simples que você recebeu junto com o Sistema Operacional, você rapidamente ficará sem espaço de disco e perguntará se precisava de todas essas informações quando tudo que queria saber era como fazer uma simples em seu aplicativo. Todas essas informações também poderiam sair caro.</p>
+<p>Mas se as informações não ocupassem muito espaço de disco, e se estivessem disponíveis gratuitamente, e você pudesse obtê-las de modo razoavelmente rápido e a qualquer hora que desejasse, então as coisas seriam mais interessantes.</p>
+- É justamente isso o que a World Wide Web é: mais informações do que você jamais poderia digerir em uma vida inteira, vinculadas de várias maneiras, no universo da Net (a Internet), disponíveis para você navegar sempre que desejar. é grande e profunda, sendo fácil perder-se em seu interior. Mas também proporciona uma diversão incomensurável.
+
+<h3 href="#link3">A Web é gráfica e Fácil de Percorrer</h3>
+- Uma das melhores partes da Web, e indiscutivelmente o motivo pelo qual ela se tornou tão popular sobre outros serviços da Internet como o Gopher, é o recurso que a Web tem de apresentar texto e imagens gráficas em cores na mesma página. Antes da Web, o uso da Internet envolvia conexões simples de texto, e você tinha que percorrer os vários serviços da Internet utilizando interfaces de linha de comandos e ferramentas obscuras. Embora houvesse muitas informações realmente interessantes na Net, ela não era necessariamente bonita de se ver.
+- A Web fornece recursos de imagens, som e vídeo a serem incorporadas ao texto, e a interface é facilmente percorrível -- basta saltar de vínculo em vínculo, de página em página, passando por sites (ou locais de instalação) e servidores.
+
+NOTA:
+
+<h3>A Web é independente de Plataforma</h3>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<aside>
+  <footer>
+    <div class="filtro center">
+    Copyright &copy; 2020 - by Rafael Santos <br>
+    <a class="facebook" href="https://www.facebook.com/rafabeatandflow" target="_blank">Facebook | <a class="twitter" href="https://twitter.com/RafaelS21310898" target="_blank">Twitter</a></br>
+    </div>
+  </footer>
+  </body>
+  </html>
+
+  </body>
+</html>
